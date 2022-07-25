@@ -7,6 +7,8 @@ echo "No file provided" >&2
 exit 1
 fi
 
+figlet Encrypting Files!
+
 #reading the password which would
 #be used for encryption
 read -p "Enter the password" pass

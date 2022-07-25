@@ -3,6 +3,7 @@
 # Display Help and Exit
 if [ "$1" == "-h" ]
 then
+	figlet Pingsweep.sh
 	echo "Pingsweep is a simple script to scan /24 networks."
 	echo "Syntax: ./ipsweep.sh xxx.xxx.xxx"
 	exit
@@ -10,6 +11,7 @@ fi
 
 if [ "$1" == "" ]
 then
+	figlet Pingsweep.sh
     echo "You forgot an IP address!"
     echo "Syntax: ./ipsweep.sh 192.168.1"
 
